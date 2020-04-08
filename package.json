@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/roggerfe/cypress-get-table.git"
   },
+  "keywords": [
+    "cypress",
+    "cypress-io",
+    "e2e testing",
+    "cypress table"
+  ],
   "author": "Rogger Fernandes <rogger.fernandes10@gmail.com>",
   "license": "ISC",
   "bugs": {
