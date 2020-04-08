@@ -1,0 +1,84 @@
+<body>
+    <main>
+        <h1>Table #1 Structed correctly</h1>
+        <table border="1" id="table1">
+            <thead>
+                <tr>
+                    <th>Dessert (100g serving)</th>
+                    <th>Calories</th>
+                    <th>Fat (g)</th>
+                    <th>Carbs (g)</th>
+                    <th>Protein (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frozen yoghurt</td>
+                    <td>159</td>
+                    <td>6</td>
+                    <td>24</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Ice cream sandwich</td>
+                    <td>237</td>
+                    <td>9</td>
+                    <td>37</td>
+                    <td>4.3</td>
+                </tr>
+                <tr>
+                    <td>Cupcake</td>
+                    <td>305</td>
+                    <td>3.7</td>
+                    <td>67</td>
+                    <td>4.3</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Table #2 Empty with headers</h1>
+        <table border="1" id="table2">
+            <thead>
+                <tr>
+                    <th>Dessert (100g serving)</th>
+                    <th>Calories</th>
+                    <th>Fat (g)</th>
+                    <th>Carbs (g)</th>
+                    <th>Protein (g)</th>
+                </tr>
+            </thead>
+        </table>
+
+
+        <button id="show-table">Show table after 3s</button>
+    </main>
+    <script>
+        document.getElementById('show-table').addEventListener('click', () => {
+            setTimeout(() => {
+                document
+                    .querySelector('main')
+                    .insertAdjacentHTML(
+                        'afterend',
+                        `<table border="1" id="table3">
+                            <thead>
+                                <tr>
+                                    <th>List of Programming Languages</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Java</td>
+                                </tr>
+                                <tr>
+                                    <td>Python</td>
+                                </tr>
+                            </tbody>
+                        </table>`
+                    )
+            }, 3000)
+        })
+    </script>
+</body>

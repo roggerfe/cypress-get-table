@@ -1,0 +1,23 @@
+{
+  "name": "cypress-get-table",
+  "version": "1.0.0",
+  "description": "Cypress plugin to make table and grid assertions easier",
+  "main": "src",
+  "scripts": {
+    "test": "npx cypress run --spec cypress/integration/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roggerfe/cypress-get-table.git"
+  },
+  "author": "Rogger Fernandes <rogger.fernandes10@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roggerfe/cypress-get-table/issues"
+  },
+  "homepage": "https://github.com/roggerfe/cypress-get-table#readme",
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "deep-equal-in-any-order": "^1.0.27"
+  }
+}
