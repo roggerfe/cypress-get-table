@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/roggerfe/cypress-get-table#readme",
   "dependencies": {
-    "cypress": "^4.3.0",
     "deep-equal-in-any-order": "^1.0.27"
+  }
+  "devDependencies": {
+    "cypress": "^4.3.0",
   }
 }
