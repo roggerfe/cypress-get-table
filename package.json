@@ -26,6 +26,6 @@
     "deep-equal-in-any-order": "^1.0.27"
   }
   "devDependencies": {
-    "cypress": "^4.3.0",
+    "cypress": "^4.3.0"
   }
 }
