@@ -25,7 +25,10 @@
   "dependencies": {
     "deep-equal-in-any-order": "^1.0.27"
   },
+  "peerDependencies": {
+    "cypress":">=4.3.0"
+  },
   "devDependencies": {
-    "cypress": "^4.3.0"
+    "cypress": ">=4.3.0"
   }
 }
