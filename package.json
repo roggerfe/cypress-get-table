@@ -1,6 +1,6 @@
 {
   "name": "@monkeyjumps/cypress-get-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cypress plugin to make table and grid assertions easier",
   "main": "src",
   "scripts": {
