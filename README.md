@@ -11,7 +11,7 @@ npm install --save @monkeyjumps/cypress-get-table
 Then include in your project's `cypress/support/index.js`
 
 ```sh
-require('cypress-get-table')
+require('@monkeyjumps/cypress-get-table')
 ```
 
 ## Usage
@@ -125,13 +125,6 @@ const expected = [
 cy.get('table').getTable().should(tableData => {
     expect(tableData).to.deep.equalInAnyOrder(expected)
 })
-```
-
-**FYI:** For this case, `deep-equal-in-any-order` chai plugin is needed, so you have to add this code in `support/index.js` file:
-
-```javascript
-import deepEqualInAnyOrder from "deep-equal-in-any-order"
-chai.use(deepEqualInAnyOrder)
 ```
 
 ## 4. Validate if table has a subset of expected rows

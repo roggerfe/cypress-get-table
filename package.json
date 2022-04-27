@@ -1,6 +1,6 @@
 {
   "name": "@monkeyjumps/cypress-get-table",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cypress plugin to make table and grid assertions easier",
   "main": "src",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/monkeyjumps/cypress-get-table#readme",
   "dependencies": {
-    "deep-equal-in-any-order": "^1.0.27"
+    "deep-equal-in-any-order": "^1.1.17"
   },
   "peerDependencies": {
     "cypress":">=8.0.0"

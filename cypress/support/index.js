@@ -17,8 +17,6 @@
 import './commands'
 import '../../src'
 
-import deepEqualInAnyOrder from "deep-equal-in-any-order"
-chai.use(deepEqualInAnyOrder)
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
