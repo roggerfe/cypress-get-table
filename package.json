@@ -1,5 +1,5 @@
 {
-  "name": "@mv/cypress-get-table",
+  "name": "@monkeyjumps/cypress-get-table",
   "version": "1.0.0",
   "description": "Cypress plugin to make table and grid assertions easier",
   "main": "src",
@@ -19,9 +19,9 @@
   "author": "Rogger Fernandes <rogger.fernandes10@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/roggerfe/cypress-get-table/issues"
+    "url": "https://github.com/monkeyjumps/cypress-get-table/issues"
   },
-  "homepage": "https://github.com/roggerfe/cypress-get-table#readme",
+  "homepage": "https://github.com/monkeyjumps/cypress-get-table#readme",
   "dependencies": {
     "deep-equal-in-any-order": "^1.0.27"
   },
