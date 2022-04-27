@@ -1,11 +1,11 @@
-# cypress-get-table
+# FORK of cypress-get-table
 
 Adds `getTable` command to `cypress` test runner.
 
 ## Install
 
 ```sh
-npm install --save cypress-get-table
+npm install --save @monkeyjumps/cypress-get-table
 ```
 
 Then include in your project's `cypress/support/index.js`
