@@ -1,5 +1,5 @@
 {
-  "name": "cypress-get-table",
+  "name": "@mv/cypress-get-table",
   "version": "1.0.0",
   "description": "Cypress plugin to make table and grid assertions easier",
   "main": "src",
@@ -26,9 +26,9 @@
     "deep-equal-in-any-order": "^1.0.27"
   },
   "peerDependencies": {
-    "cypress":">=4.3.0"
+    "cypress":">=8.0.0"
   },
   "devDependencies": {
-    "cypress": ">=4.3.0"
+    "cypress": ">=8.0.0"
   }
 }
