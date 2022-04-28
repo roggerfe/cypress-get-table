@@ -23,4 +23,8 @@ const getTable = (subject, options = {}) => {
     )
 }
 
+
+const deepEqualInAnyOrder= require("deep-equal-in-any-order");
+chai.use(deepEqualInAnyOrder)
+
 Cypress.Commands.add('getTable', { prevSubject: true }, getTable)
